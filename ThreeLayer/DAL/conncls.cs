@@ -12,7 +12,7 @@ namespace DAL
         SqlConnection con;
         SqlCommand cmd;
 
-        public conncls()//constructor---cls created aakumbol tannee obj invoke aaakaan
+        public conncls()
         {
 
             con = new SqlConnection(@"server=LAPTOP-IF3SH872\SQLEXPRESS;database=Registration;Integrated Security=True;");
